@@ -1,0 +1,16 @@
+.dropdown__input {
+    display: inline-block;
+
+    width: 90%;
+    padding: 3px 15px;
+
+    font-size: 12px;
+    line-height: 20px;
+
+    background-color: rgb(236, 239, 255);
+}
+
+.dropdown__input::placeholder {
+    font-size: 12px;
+    text-align: center;
+}

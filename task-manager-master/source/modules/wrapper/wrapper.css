@@ -1,0 +1,30 @@
+@import url('./nullstyle.css');
+
+@font-face {
+    font-family: 'Roboto Regular', sans-serif;
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-rows: minmax(55px, auto) 1fr minmax(55px, auto);
+    align-content: space-between;
+
+    max-width: 100%;
+    min-height: 100%;
+
+    font-family: 'Roboto Regular', sans-serif;
+    color: #fff;
+
+    background-color: #0079bf;
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        grid-template-rows: minmax(55px, auto) 1fr minmax(70px, auto);
+    }
+}

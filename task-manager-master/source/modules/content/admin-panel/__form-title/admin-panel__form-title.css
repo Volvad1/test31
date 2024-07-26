@@ -1,0 +1,9 @@
+.admin-panel__form-title {
+    margin: 0 0 0 20px;
+    padding: 3px;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #0079bf;
+    text-shadow: 1px 1px 15px rgb(89, 246, 162);
+}

@@ -1,0 +1,10 @@
+.footer__author-info {
+    opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+    .footer__author-info {
+        align-self: flex-end;
+        font-size: 16px;
+    }
+}

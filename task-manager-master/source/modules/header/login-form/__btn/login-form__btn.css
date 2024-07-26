@@ -1,0 +1,22 @@
+.login-form__btn {
+    height: 35px;
+    padding: 0 30px;
+
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+
+    transition: 0.3s linear;
+}
+
+.login-form__btn:hover {
+    background-color: rgb(45, 82, 157);
+    transition: 0.4s linear;
+}
+
+.login-form__btn:active {
+    background-color: rgb(49, 90, 171);
+    transition: 0.1s linear;
+}

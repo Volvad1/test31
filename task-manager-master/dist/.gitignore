@@ -1,0 +1,7 @@
+.eslintignore    
+.eslintrc.js          
+.stylelintignore 
+.stylelintrc.js  
+node_modules/    
+prettierrc.json
+settings.json

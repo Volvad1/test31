@@ -1,0 +1,6 @@
+.admin-panel__form-border {
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #d8baff;
+    border-radius: 7px;
+}

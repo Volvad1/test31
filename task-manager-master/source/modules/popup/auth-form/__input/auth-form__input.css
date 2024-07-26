@@ -1,0 +1,15 @@
+.auth-form__input {
+    flex: 1 0 auto;
+    padding: 5px 10px;
+    box-shadow: inset 0 0 0 1px rgb(97, 186, 200);
+    transition: 0.2s linear 0s;
+}
+
+.auth-form__input:focus {
+    box-shadow: inset 0 0 0 1px rgb(67, 184, 202);
+    transition: 0.3s linear 0s;
+}
+
+.auth-form__input::placeholder {
+    font-size: 11px;
+}

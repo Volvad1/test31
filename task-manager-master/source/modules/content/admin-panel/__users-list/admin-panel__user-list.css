@@ -1,0 +1,6 @@
+.admin-panel__users-list {
+    overflow-y: auto;
+    max-height: 41vh;
+    margin: 0 0 20px;
+    padding: 2px 0;
+}

@@ -1,0 +1,29 @@
+.menu__list-item {
+    position: relative;
+    margin: 0 0 5px;
+    padding: 5px 3px;
+    line-height: 24px;
+}
+
+.menu__list-item::after {
+    content: '';
+
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+
+    width: 90%;
+    height: 1px;
+    margin: 0 0 0 -45%;
+
+    background-color: rgba(90, 81, 81, 0.2);
+}
+
+.menu__list-item:last-child::after {
+    display: none;
+}
+
+.menu__list-item:last-child {
+    margin: 0;
+    padding: 0;
+}

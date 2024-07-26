@@ -1,0 +1,24 @@
+.admin-panel__input {
+    display: inline-block;
+
+    width: 90%;
+    margin: 0 10px 10px;
+    padding: 4px 10px;
+
+    font-size: 14px;
+    line-height: 18px;
+
+    background-color: rgb(236, 239, 255);
+}
+
+.admin-panel__input:last-child {
+    margin: 0 10px;
+}
+
+.admin-panel__input::placeholder {
+    opacity: 0.3;
+}
+
+.admin-panel__input:focus {
+    box-shadow: inset 0 0 1px 0 cyan;
+}

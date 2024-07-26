@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task Manager</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-wrapper">
+                <h1 class="header__logo">
+                    <a class="header__link" href="./index.html">Task Manager</a>
+                </h1>
+                <div class="header__content">
+                    <form class="login-form" action="#" method="post">
+                        <input class="login-form__input" name="login" placeholder="Login">
+                        <input class="login-form__input" type="password" name="password" placeholder="Password">
+                        <button class="login-form__btn" type="submit">Log in</button>
+                    </form>
+                </div>
+                <div class="burger-menu show">
+                    <span class="burger-menu__item"></span>
+                </div>
+            </div>
+        </header>
+        <main class="content">
+            <section class="message">
+                <h2 class="message__text">Please log in to view your tasks!</h2>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+        <div class="popup" id="error-message">
+            <div class="popup__content">
+                <div class="popup__body">
+                    <div class="error-message">
+                        <p class="error-message__text">Failed to log in!</p>
+                        <p class="error-message__text">Check the correctness of the data entered and try again</p>
+                        <button class="btn error-message__btn btn-close">ОК</button>
+                        <a class="btn error-message__link" href="#popup-auth">Authorization</a>
+                    </div>
+                    <button class="popup__btn-close btn-close">X</button>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="popup-auth">
+            <div class="popup__content">
+                <div class="popup__body">
+                    <form class="auth-form login-form" action="#" method="post">
+                        <fieldset class="auth-form__wrapper">
+                            <legend class="auth-form__title">Authorization</legend>
+                            <div class="auth-form__content-row">
+                                <label class="auth-form__label" for="login">Login</label>
+                                <input class="auth-form__input" id="login" name="login" placeholder="your login">
+                            </div>
+                            <div class="auth-form__content-row">
+                                <label class="auth-form__label" for="password">Password</label>
+                                <input class="auth-form__input" type="password" id="password" name="password" placeholder="your password">
+                            </div>
+                            <div class="auth-form__buttons">
+                                <button class="btn auth-form__btn auth-form__btn_ok btn-close" type="submit">Enter</button>
+                                <button class="btn auth-form__btn auth-form__btn_reset btn-close" type="reset">Cancel</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <button class="popup__btn-close btn-close">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bundle.27f5709250e9361388fa.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.admin-panel__menu {
+    position: relative;
+}
+
+.admin-panel__menu::before {
+    content: '';
+
+    position: absolute;
+    top: -25px;
+    left: 50%;
+
+    width: 70%;
+    height: 1px;
+    margin-left: -35%;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}

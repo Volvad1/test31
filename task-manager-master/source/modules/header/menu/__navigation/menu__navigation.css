@@ -1,0 +1,37 @@
+.menu__navigation {
+    pointer-events: none;
+
+    position: absolute;
+    z-index: 2;
+    top: 110%;
+    right: 0;
+    transform: translate(0, -20px);
+
+    min-width: 250px;
+    height: 0;
+    max-height: 0;
+    padding: 0;
+
+    color: rgb(25, 25, 25);
+
+    visibility: hidden;
+    background-color: rgb(192, 199, 242);
+    border-radius: 7px;
+
+    transition: visibility 0.1s linear 0s, max-height 0.2s linear, transform 0.2s linear 0s, padding 0s linear;
+}
+
+.menu.active .menu__navigation {
+    pointer-events: all;
+
+    transform: translate(0, 0);
+
+    height: auto;
+    max-height: 220px;
+    padding: 15px 7px 7px;
+
+    visibility: visible;
+    opacity: 1;
+
+    transition: visibility 0.1s linear 0.1s, max-height 0.1s linear, transform 0.3s linear 0s, padding 0s linear;
+}

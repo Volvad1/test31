@@ -1,0 +1,11 @@
+.auth-form__btn_ok {
+    background-color: rgb(97, 169, 94);
+}
+
+.auth-form__btn_ok:hover {
+    background-color: rgb(96, 162, 94);
+}
+
+.auth-form__btn_ok:active {
+    background-color: rgb(90, 150, 87);
+}

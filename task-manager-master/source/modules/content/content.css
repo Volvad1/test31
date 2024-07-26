@@ -1,0 +1,36 @@
+@import url('./message/message.css');
+@import url('./tasks/tasks.css');
+@import url('./admin-panel/admin-panel.css');
+
+.content {
+    display: grid;
+    grid-template-columns: minmax(auto, 1220px);
+    justify-content: center;
+    padding: 20px 19px 32px 16px;
+}
+
+.content.admin-content {
+    grid-template-columns: minmax(auto, 280px) auto;
+    column-gap: 40px;
+    align-content: start;
+    justify-content: center;
+}
+
+.content.admin-content .tasks-container {
+    position: static;
+    z-index: 1;
+    visibility: visible;
+}
+
+.content.admin-content.hint .tasks-container {
+    position: fixed;
+    z-index: -10;
+    visibility: hidden;
+}
+
+@media (max-width: 767px) {
+    .content.admin-content {
+        grid-template-columns: repeat(auto-fit, 282px);
+        row-gap: 20px;
+    }
+}

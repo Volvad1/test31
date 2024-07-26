@@ -1,0 +1,27 @@
+.btn {
+    display: inline-block;
+
+    min-width: 140px;
+    height: 35px;
+    padding: 0 20px;
+
+    font-size: 12px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+
+    background-color: rgb(114, 77, 175);
+    border-radius: 7px;
+
+    transition: 0.2s linear;
+}
+
+.btn:hover {
+    transition: 0.3s linear;
+}
+
+.btn:active {
+    transition: 0.2s linear;
+}

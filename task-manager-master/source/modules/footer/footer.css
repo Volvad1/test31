@@ -1,0 +1,16 @@
+@import url('./__content/footer__content.css');
+@import url('./__tasks-info/footer__tasks-info.css');
+@import url('./__author-info/footer__author-info.css');
+
+.footer {
+    display: grid;
+    grid-template-columns: minmax(auto, 1235px);
+    justify-content: center;
+
+    padding: 0 20px;
+
+    font-size: 18px;
+    line-height: 21px;
+
+    background-color: #0067a3;
+}

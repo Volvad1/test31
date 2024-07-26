@@ -1,0 +1,21 @@
+.popup__btn-close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+
+    width: 24px;
+    height: 24px;
+
+    opacity: 0.6;
+    background: url('/images/close.png') center / cover no-repeat;
+    border-radius: 50%;
+    outline: 1px solid transparent;
+
+    transition: 0.3s linear;
+}
+
+.popup__btn-close:hover {
+    opacity: 1;
+    outline: 1px solid rgba(255, 255, 255, 0.6);
+    transition: opacity 0.4s linear;
+}

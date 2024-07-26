@@ -1,0 +1,30 @@
+@import url('./__logo/header__logo.css');
+@import url('./menu/menu.css');
+@import url('./login-form/login-form.css');
+@import url('./burger-menu/burger-menu.css');
+
+.header {
+    display: grid;
+    grid-template-columns: minmax(auto, 1235px);
+    justify-content: center;
+
+    padding: 7px 16px 7px 20px;
+
+    background-color: #0067a3;
+}
+
+.header-wrapper {
+    display: flex;
+    column-gap: 47px;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .header-wrapper {
+        display: grid;
+        grid-template-columns: minmax(auto, 180px) 160px;
+        column-gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,16 @@
+@import url('./__wrapper/auth-form__wrapper.css');
+@import url('./__title/auth-form__title.css');
+@import url('./__content-row/auth-form__content-row.css');
+@import url('./__input/auth-form__input.css');
+@import url('./__label/auth-form__label.css');
+@import url('./__buttons/auth-form__buttons.css');
+@import url('./__btn/auth-form__btn.css');
+@import url('./__btn/auth-form__btn_ok.css');
+@import url('./__btn/auth-form__btn_reset.css');
+
+.auth-form {
+    min-width: 280px;
+    padding: 5px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 10px 18px 10px 10px;
+}

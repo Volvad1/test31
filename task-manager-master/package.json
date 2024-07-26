@@ -1,0 +1,47 @@
+{
+    "name": "task-manager",
+    "version": "1.0.0",
+    "description": " Practical work \"Task manager\" on the Skillfactory course",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production",
+        "dev": "webpack --mode=development",
+        "watch": "npx webpack --watch",
+        "start": "npx webpack serve --mode development --open",
+        "lint": "npx eslint",
+        "csslint": "npx stylelint **/*.css"
+    },
+    "author": "Anatoly Kostrykin",
+    "license": "ISC",
+    "devDependencies": {
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.8.1",
+        "css-minimizer-webpack-plugin": "^5.0.0",
+        "eslint": "^8.42.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-webpack-plugin": "^4.0.1",
+        "html": "^1.0.0",
+        "html-loader": "^4.2.0",
+        "html-webpack-plugin": "^5.5.1",
+        "mini-css-extract-plugin": "^2.7.6",
+        "prettier": "^2.8.8",
+        "style-loader": "^3.3.3",
+        "stylelint": "^15.6.3",
+        "stylelint-config-clean-order": "^5.0.1",
+        "stylelint-config-standard": "^33.0.0",
+        "stylelint-config-standard-scss": "^9.0.0",
+        "stylelint-order": "^6.0.3",
+        "stylelint-prettier": "^3.0.0",
+        "stylelint-scss": "^5.0.0",
+        "stylelint-webpack-plugin": "^4.1.1",
+        "webpack": "^5.88.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.0"
+    },
+    "dependencies": {
+        "uuid": "^9.0.0"
+    }
+}

@@ -1,0 +1,17 @@
+.menu__about-user {
+    cursor: pointer;
+
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+
+    font-size: 15px;
+    line-height: 24px;
+
+    transition: 0.3s linear;
+}
+
+.menu__about-user:hover {
+    background-color: #0f6ea5;
+    transition: 0.4s linear;
+}

@@ -1,0 +1,13 @@
+.error-message__link {
+    min-width: 160px;
+    color: #fff !important;
+    background-color: rgb(114, 77, 175);
+}
+
+.error-message__link:hover {
+    background-color: rgb(102, 63, 165);
+}
+
+.error-message__link:active {
+    background-color: rgb(114, 63, 196);
+}

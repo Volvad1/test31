@@ -1,0 +1,8 @@
+.tasks__list {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    max-height: 58vh;
+    margin: 0 0 17px;
+    padding: 2px 0;
+}

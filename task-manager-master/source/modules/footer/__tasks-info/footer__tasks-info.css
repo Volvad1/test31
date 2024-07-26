@@ -1,0 +1,9 @@
+.footer__tasks-info {
+    display: flex;
+    column-gap: 36px;
+}
+
+#active-tasks,
+#finished-tasks {
+    color: rgb(96, 231, 96);
+}

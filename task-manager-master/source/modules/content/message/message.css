@@ -1,0 +1,11 @@
+@import url('./__text/message__text.css');
+
+.message {
+    max-height: 77vh;
+    padding: 30px 20px;
+
+    color: #000;
+
+    background-color: #ebecf0;
+    border-radius: 10px;
+}

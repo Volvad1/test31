@@ -1,0 +1,11 @@
+.auth-form__btn_reset {
+    background-color: rgb(200, 97, 76);
+}
+
+.auth-form__btn_reset:hover {
+    background-color: rgb(176, 82, 63);
+}
+
+.auth-form__btn_reset:active {
+    background-color: rgb(153, 67, 49);
+}

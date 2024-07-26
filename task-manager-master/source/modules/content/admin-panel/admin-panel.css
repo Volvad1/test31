@@ -1,0 +1,24 @@
+@import url('./__title/admin-panel__title.css');
+@import url('./__menu/admin-panel__menu.css');
+@import url('./__users-list/admin-panel__user-list.css');
+@import url('./__user/admin-panel__user.css');
+@import url('./__form/admin-panel__form.css');
+@import url('./__form-border/admin-panel__form-border.css');
+@import url('./__form-title/admin-panel__form-title.css');
+@import url('./__row/admin-panel__row.css');
+@import url('./__input/admin-panel__input.css');
+@import url('./__btn/admin-panel__btn.css');
+@import url('./__message/admin-panel__message.css');
+@import url('./__hint/admin-panel__hint.css');
+
+.admin-panel {
+    margin: 10px 10px 0 0;
+    padding: 20px 15px 10px;
+
+    font-size: 16px;
+
+    background-color: #0067a3;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+    box-shadow: 0 0 15px 1px white;
+}

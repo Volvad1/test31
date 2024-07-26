@@ -1,0 +1,25 @@
+.admin-panel__user {
+    cursor: pointer;
+
+    position: relative;
+
+    margin: 0 0 15px;
+    padding: 7px 13px;
+
+    font-size: 15px;
+    line-height: 22px;
+    color: #000;
+    letter-spacing: 0.6px;
+
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.admin-panel__user:hover {
+    background-color: rgb(219, 224, 249);
+    transition: background-color 0.4s linear;
+}
+
+.admin-panel__user.active {
+    background-color: rgb(181, 242, 222);
+}

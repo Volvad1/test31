@@ -1,0 +1,12 @@
+@import url('./__about-user/menu__about-user.css');
+@import url('./__user-avatar/menu__user-avatar.css');
+@import url('./__user-info/menu__user-info.css');
+@import url('./__icon/menu__icon.css');
+@import url('./__navigation/menu__navigation.css');
+@import url('./__list/menu__list.css');
+@import url('./__list-item/menu__list-item.css');
+@import url('./__logout/menu__logout.css');
+
+.menu {
+    position: relative;
+}

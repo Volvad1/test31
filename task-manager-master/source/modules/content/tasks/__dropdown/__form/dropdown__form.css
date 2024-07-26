@@ -1,0 +1,28 @@
+.dropdown__form {
+    position: relative;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.tasks.show .dropdown__form {
+    height: 50px;
+    margin: 0 0 2px;
+    padding: 0 10px 0 0;
+
+    visibility: visible;
+    opacity: 1;
+}
+
+.tasks.show .dropdown__form::after {
+    cursor: pointer;
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    right: 20px;
+
+    border-top: 10px solid rgb(98, 59, 182);
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}

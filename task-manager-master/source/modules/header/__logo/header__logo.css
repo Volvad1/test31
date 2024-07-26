@@ -1,0 +1,18 @@
+.header__logo {
+    font-size: 28px;
+    line-height: 41px;
+    transition: 0.3s linear;
+}
+
+.header__logo:hover {
+    color: rgb(213, 250, 255);
+    transition: 0.5s linear;
+}
+
+@media (max-width: 767px) {
+    .header__logo {
+        font-size: 21px;
+        line-height: 35px;
+        text-align: center;
+    }
+}

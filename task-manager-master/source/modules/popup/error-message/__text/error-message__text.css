@@ -1,0 +1,5 @@
+.error-message__text {
+    margin: 0 0 15px;
+    font-size: 15px;
+    text-shadow: 0 0 1px rgb(234, 123, 123);
+}

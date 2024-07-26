@@ -1,0 +1,59 @@
+@import url('./__title/tasks__title.css');
+@import url('./__list/tasks__list.css');
+@import url('./__list-item/tasks__list-item.css');
+@import url('./__input/tasks__input.css');
+@import url('./__btn/tasks__btn.css');
+@import url('./__buttons/tasks__buttons.css');
+@import url('./__dropdown/tasks__dropdown.css');
+
+.tasks-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 282px);
+    gap: 24px;
+    align-items: start;
+    justify-content: center;
+
+    padding: 5px;
+}
+
+.content.admin-content .tasks-container {
+    grid-template-columns: repeat(2, 282px);
+    column-gap: 70px;
+    justify-content: center;
+}
+
+.tasks {
+    display: grid;
+    align-content: space-between;
+
+    padding: 12px 0 8px 5px;
+
+    color: #000;
+
+    background-color: #ebecf0;
+    border-radius: 10px;
+}
+
+.tasks.tasks_backlog {
+    position: relative;
+    box-shadow: 1px 1px 10px 2px rgb(255, 255, 255);
+}
+
+.tasks.tasks_ready {
+    box-shadow: 1px 1px 15px 2px rgb(243, 99, 116);
+}
+
+.tasks.tasks_in-progress {
+    box-shadow: 1px 1px 10px 2px rgb(15, 240, 229);
+}
+
+.tasks_finished {
+    box-shadow: 1px 1px 10px 2px rgb(11, 248, 118);
+}
+
+@media (max-width: 1050px) {
+    .content.admin-content .tasks-container {
+        grid-template-columns: minmax(auto, 282px);
+        column-gap: 30px;
+    }
+}

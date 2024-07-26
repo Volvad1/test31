@@ -1,0 +1,20 @@
+.tasks__list-item {
+    cursor: pointer;
+
+    position: relative;
+
+    min-width: 263px;
+    margin: 0 7px 15px;
+    padding: 7px 9px;
+
+    line-height: 22px;
+    hyphens: auto;
+    letter-spacing: 0.5px;
+
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.tasks__list-item:last-child {
+    margin: 0 7px 5px;
+}

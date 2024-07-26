@@ -1,0 +1,20 @@
+.menu__user-info {
+    letter-spacing: 0.5px;
+}
+
+.menu__user-info .current-user-name,
+.menu__user-info .current-user-id {
+    font-weight: 700;
+    transition: text-shadow 0.3s linear;
+}
+
+.menu__user-info .current-user-id {
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+.menu__user-info .current-user-name:hover,
+.menu__user-info .current-user-id:hover {
+    text-shadow: 1px 1px 30px rgb(61, 55, 238);
+    transition: text-shadow 0.4s linear;
+}

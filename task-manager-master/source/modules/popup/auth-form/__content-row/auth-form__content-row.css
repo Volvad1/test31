@@ -1,0 +1,8 @@
+.auth-form__content-row {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 0 15px;
+}

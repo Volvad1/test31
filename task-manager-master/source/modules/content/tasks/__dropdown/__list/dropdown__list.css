@@ -1,0 +1,33 @@
+.dropdown__list-wrapper {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 97%;
+}
+
+.tasks.show .dropdown__list-wrapper {
+    z-index: 1;
+    top: 100%;
+    transition: top 0.15s linear;
+}
+
+.dropdown__list {
+    max-height: 0;
+    opacity: 0;
+    border-radius: 7px;
+    transition: top 0.1s linear, opacity 0s linear 0.05s, max-height 0.05s linear;
+}
+
+.tasks.show .dropdown__list {
+    overflow-y: auto;
+
+    max-height: 120px;
+
+    opacity: 1;
+    border: 1px solid #1f2020;
+    border-top: 1px solid #0079bf;
+
+    transition: opacity 0.1s linear 0.05s, max-height 0.15s linear;
+}
